@@ -1,3 +1,12 @@
+/*Syntax*/
+
+.vocab-word {
+	border-bottom: 2px solid #B7E3E4;
+	display: inline-block;
+	line-height: 1;
+	text-shadow:.75px 1px white, -.75px 1px white;
+}
+
 /*Utilities*/
 
 .text-center {

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="118px" viewBox="0 0 96 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>st-logo--base</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="st-logo--base">
+            <g id="Group-2" transform="translate(0.000000, 4.000000)">
+                <g id="Group" transform="translate(18.000000, 0.000000)" stroke="#121738">
+                    <circle id="Oval-2" cx="30" cy="30" r="29.5"></circle>
+                    <g id="Mask-Copy" transform="translate(10.000000, 12.000000)" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M15,30 L1.86851709,30 L1.86851709,30 C1.31623234,30 0.868517092,29.5522847 0.868517092,29 C0.868517092,28.802575 0.926955119,28.6095673 1.0364668,28.4452998 L14.1679497,8.74807544 L14.1679497,8.74807544 C14.4743022,8.28854675 15.0951715,8.16437288 15.5547002,8.47072534 C15.8328989,8.65619112 16,8.96842245 16,9.30277564 L16,29 L16,29 C16,29.5522847 15.5522847,30 15,30 Z" id="Mask"></path>
+                        <path d="M38.1314829,30 L21,30 L21,30 C20.4477153,30 20,29.5522847 20,29 L20,3.30277564 L20,3.30277564 C20,2.75049089 20.4477153,2.30277564 21,2.30277564 C21.3343532,2.30277564 21.6465845,2.46987677 21.8320503,2.74807544 L38.9635332,28.4452998 L38.9635332,28.4452998 C39.2698857,28.9048285 39.1457118,29.5256978 38.6861831,29.8320503 C38.5219156,29.941562 38.3289079,30 38.1314829,30 Z"></path>
+                    </g>
+                </g>
+                <text id="SAILING" font-family="BerninoSansOffc-Bold, Bernino Sans Offc" font-size="24" font-weight="bold" line-spacing="32" fill="#121738">
+                    <tspan x="1.53358209" y="87">SAILING</tspan>
+                </text>
+                <text id="TUTORIALS" font-family="BerninoSansOffc-Lt, Bernino Sans Offc Lt" font-size="16" font-weight="normal" line-spacing="24" letter-spacing="1.70000005" fill="#121738">
+                    <tspan x="2.40895503" y="105">TUTORIAL</tspan>
+                    <tspan x="85.471642" y="105">S</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

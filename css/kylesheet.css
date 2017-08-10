@@ -9,6 +9,14 @@
 
 /*Utilities*/
 
+.small {
+	font-size: 1.4rem;
+}
+
+.gray {
+	color: #A1A3B0;
+}
+
 .text-center {
 	text-align: center;
 }

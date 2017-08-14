@@ -1,3 +1,111 @@
+@font-face {
+  font-family: DIN;
+  src: url(../fonts/DINNextLTPro-Bold.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: DIN;
+  src: url(../fonts/DINNextLTPro-Light.otf);
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: Charter;
+  src: url(../fonts/Charter-Regular.otf);
+  font-weight: regular;
+}
+
+@font-face {
+  font-family: Charter;
+  src: url(../fonts/Charter-Italic.otf);
+  font-weight: italic;
+}
+
+@font-face {
+  font-family: Charter;
+  src: url(../fonts/Charter-Bold.otf);
+  font-weight: bold;
+}
+
+/*Typography*/
+html, .root {
+  font-size: 16px;
+  line-height: 24px;
+}
+body, .article {
+  font-family: "Charter", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin: auto;
+}
+h1, .h1 {
+  font-family: DIN;
+  font-weight: bold;
+  font-size: 3.375em;
+  line-height: 1.33333333em;
+  margin-top: 0.44444444em;
+  margin-bottom: 0.88888888em;
+}
+h2, .h2 {
+  font-family: DIN;
+  font-weight: bold;
+  font-size: 2.25em;
+  line-height: 1.33333333em;
+  margin-top: 0.66666667em;
+  margin-bottom: 0.66666667em;
+}
+h3, .h3 {
+  font-family: DIN;
+  font-weight: lighter;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 0em;
+}
+h4, .h4 {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-top: 1.5em;
+  margin-bottom: 0em;
+}
+h5, .h5 {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-top: 1.5em;
+  margin-bottom: 0em;
+}
+p, ul, ol, pre, table, blockquote {
+  margin-top: 0em;
+  margin-bottom: 1.5em;
+}
+ul ul, ol ol, ul ol, ol ul {
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+/* Let's make sure all's aligned */
+hr, .hr {
+  border: 1px solid;
+  margin: -1px 0;
+}
+a, b, i, strong, em, small, code {
+  line-height: 0;
+}
+sub, sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+
+
+
 /*Syntax*/
 
 .vocab-word {
@@ -10,7 +118,7 @@
 /*Utilities*/
 
 .small {
-	font-size: 1.4rem;
+	font-size: .8rem;
 }
 
 .gray {

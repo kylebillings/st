@@ -61,10 +61,12 @@ h3, .h3 {
   font-size: 1.5em;
   line-height: 1.5em;
   margin-top: 1em;
-  margin-bottom: 0em;
+  margin-bottom: 1em;
 }
 h4, .h4 {
-  font-size: 1em;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 1.5em;
   line-height: 1.5em;
   margin-top: 1.5em;
   margin-bottom: 0em;
@@ -103,8 +105,75 @@ sup {
 sub {
   bottom: -0.25em;
 }
+label {
+	font-size: .8rem;
+	margin-bottom: 0;
+	font-family: DIN;
+}
 
+/*Navbar*/
 
+.home-logo {
+	margin-top: 1rem;
+	margin-left: 1rem;
+	position: fixed;
+}
+
+.title {
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	margin-top: 12rem;
+	margin-left: -1.5rem;
+	position: fixed;
+}
+
+/*Video*/
+
+#banner{
+	margin:0;
+	margin-left: 5.5rem;
+	width:40%;
+	height:680px;
+    overflow: hidden;
+    position: absolute;
+}
+
+#banner video{
+	margin-left: -50%;
+	height: 100% !important;
+	background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+	background-size: cover;
+	background-positon: center;
+	transition: 1s opacity;
+	z-index:-1;
+}
+
+/*Buttons*/
+
+.button {
+	font-family: DIN;
+}
+
+.button-primary {
+	background-color: #0BBCD6;
+	transition: .25s;
+}
+
+/*Forms*/
+
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea {
+  width: 75%;
+  ming-width: 304px; }
 
 /*Syntax*/
 
@@ -116,6 +185,14 @@ sub {
 }
 
 /*Utilities*/
+
+.rotate {
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
 
 .small {
 	font-size: .8rem;

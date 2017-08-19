@@ -13,13 +13,13 @@
 @font-face {
   font-family: Charter;
   src: url(../fonts/Charter-Regular.otf);
-  font-weight: regular;
+  font-style: regular;
 }
 
 @font-face {
   font-family: Charter;
   src: url(../fonts/Charter-Italic.otf);
-  font-weight: italic;
+  font-style: italic;
 }
 
 @font-face {
@@ -30,11 +30,12 @@
 
 /*Typography*/
 html, .root {
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 28px;
 }
 body, .article {
   font-family: "Charter", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
   font-size: 1em;
   line-height: 1.5em;
   margin: auto;
@@ -61,14 +62,14 @@ h3, .h3 {
   font-size: 1.5em;
   line-height: 1.5em;
   margin-top: 1em;
-  margin-bottom: 1em;
+  margin-bottom: .5em;
 }
 h4, .h4 {
-  font-style: italic;
-  font-weight: lighter;
-  font-size: 1.5em;
+  font-family: DIN;
+  font-weight: bold;
+  font-size: 1.2em;
   line-height: 1.5em;
-  margin-top: 1.5em;
+  margin-top: 1em;
   margin-bottom: 0em;
 }
 h5, .h5 {
@@ -111,7 +112,23 @@ label {
 	font-family: DIN;
 }
 
+.typography-container {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.article-image {
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  max-width: 1260px;
+}
 /*Navbar*/
+
+.navbar {
+  position: absolute;
+  width: 96px;
+}
 
 .home-logo {
 	margin-top: 1rem;
@@ -125,8 +142,8 @@ label {
 	-ms-transform: rotate(-90deg);
 	-o-transform: rotate(-90deg);
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-	margin-top: 12rem;
-	margin-left: -1.5rem;
+	bottom: 4rem;
+	margin-left: -1.75rem;
 	position: fixed;
 }
 
@@ -135,7 +152,7 @@ label {
 #banner{
 	margin:0;
 	margin-left: 5.5rem;
-	width:40%;
+	width:45%;
 	height:680px;
     overflow: hidden;
     position: absolute;
@@ -144,7 +161,6 @@ label {
 #banner video{
 	margin-left: -50%;
 	height: 100% !important;
-	background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
 	background-size: cover;
 	background-positon: center;
 	transition: 1s opacity;

@@ -123,6 +123,12 @@ label {
   margin-bottom: 3rem;
   max-width: 1260px;
 }
+
+.definition-container p {
+  font-family: DIN;
+  font-size: .8em;
+  line-height: 1.5em;
+}
 /*Navbar*/
 
 .navbar {

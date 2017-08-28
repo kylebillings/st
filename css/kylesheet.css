@@ -123,6 +123,7 @@ label {
   margin-top: 1rem;
   margin-bottom: 3rem;
   max-width: 1260px;
+  opacity:.2;
 }
 
 .definition-container p {

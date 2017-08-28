@@ -30,7 +30,7 @@
 
 /*Typography*/
 html, .root {
-  font-size: 20px;
+  font-size: 21px;
   line-height: 28px;
 }
 body, .article {
@@ -223,6 +223,10 @@ textarea {
 
 .gray {
 	color: #A1A3B0;
+}
+
+.blue-gray {
+  color: #707487;
 }
 
 .text-center {

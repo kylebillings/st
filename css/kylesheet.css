@@ -276,8 +276,12 @@ there.
 
 /**/
 
-/* Larger than mobile */
-@media (max-width: 400px) {}
+/* smaller than mobile */
+@media (max-width: 400px) {
+  .article-image {
+    opacity: 1;
+  }
+}
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (max-width: 550px) {
@@ -289,7 +293,7 @@ there.
 	}
 }
 
-/* Larger than tablet */
+/* smaller than tablet */
 @media (max-width: 750px) {
 	#banner {
 		width: 35%;

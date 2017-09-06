@@ -59,10 +59,12 @@
   </div>
   <div class="navbar-space"></div>
   <div id="banner">
-  <video autoplay  poster="" id="bgvid" loop muted>
+  <video autoplay  poster="videos/at-the-helm-1080.jpg" id="bgvid" loop muted>
     <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
-
-  <source src="videos/prep.mp4" type="video/mp4">
+    <source src="videos/at-the-helm-1080.webm" type="video/webm" />
+    <source src="videos/at-the-helm-1080.ogv" type="video/ogv" />
+    <source src="videos/at-the-helm-1080.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
   </video>
   </div>
   <div class="container">
@@ -73,14 +75,16 @@
           Your browser does not support the video tag.
         </video>
       </div> -->
-      <div class="six columns offset-by-six" style="margin-top: 15%; margin-bottom: 15%;">
+      <div class="six columns offset-by-six" style="padding-left: .5rem; margin-top: 15%; margin-bottom: 4rem;">
         <h2 style="font-weight: bold; margin-bottom: .5rem;">Start learning to sail.</h2>
         <h4 style="font-weight: 300; margin-bottom: 1rem;">Experience the theory, physics, technique, rules, and lifestyle of sailing through thoughtfully written tutorials and beautiful video examples.</h4>
         <a href="learn-to-sail-part-one.html"><button class="button button-primary">Start Learning</button></a>
       </div>
     </div>
   </div>
-  <div class="container section">
+
+  <!-- Widest Version -->
+  <div id="sailing-theory-for-beginners" class="container section">
     <hr class="hr">
     <div class="row">
       <div class="eight columns offset-by-two text-center" style="margin-bottom: 2rem;">
@@ -91,19 +95,19 @@
     <div class="row">
 
       <!-- Learn to Sail Part I -->
-      <div class="four columns">
+      <div class="four columns card-container">
         <div class="card card--featured">
           <a href="learn-to-sail-part-one.html" class="card-link">
           <div class="card-image">
-            <video width="100%" autoplay loop muted>
-              <source src="videos/at-the-helm-1080.webm" type="video/webm" />
-              <source src="videos/at-the-helm-1080.ogv" type="video/ogv" />
-              <source src="videos/at-the-helm-1080.mp4" type="video/mp4" />
+            <video width="100%" poster="videos/at-the-helm-1080.jpg" autoplay loop muted>
+              <source src="videos/prep.webm" type="video/webm" />
+              <source src="videos/prep.ogv" type="video/ogv" />
+              <source src="videos/prep.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
           <div class="card-text">
-            <h4>Learn to Sail: Part I</h4>
+            <h4>Part I: Theory</h4>
             <p class="small din">Learn the physics of how sailboats turn wind into power.</p>
           </div>
           <div class="reading-time">
@@ -117,14 +121,14 @@
       </div>
       
       <!-- Learn to Sail Part II -->
-      <div class="four columns">
+      <div class="four columns card-container">
         <div class="card card--unavailable">
           <div class="card-image">
             <img src="images/wind-dance.jpg" alt="" class="img-responsive">
           </div>
           <div class="card-text">
-            <h4>Learn to Sail: Part II</h4>
-            <p class="small din">Use your knowledge of sailing theory to explore real sailing techniques.</p>
+            <h4>Part II: Navigation</h4>
+            <p class="small din">Use your knowledge of sailing theory to learn how to sail almost anywhere.</p>
           </div>
           <span class="difficulty">
             Coming Soon
@@ -133,14 +137,14 @@
       </div>
 
       <!-- Learn to Sail Part III -->
-      <div class="four columns">
+      <div class="four columns card-container">
         <div class="card card--unavailable">
           <div class="card-image">
             <img src="images/marina-sunset.jpg" alt="" class="img-responsive">
           </div>
           <div class="card-text">
-            <h4>Learn to Sail: Part III</h4>
-            <p class="small din">Learn how to practice, how to sign up for lessons, and how to join a crew.</p>
+            <h4>Part III: Maneuvers</h4>
+            <p class="small din">Explore the techniques of sailing, and learn how to get out on the water to practice.</p>
           </div>
           <span class="difficulty">
             Coming Soon

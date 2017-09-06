@@ -178,14 +178,14 @@ label {
 
 #banner{
 	margin:0;
-	width:48%;
+	width:50%;
 	height:680px;
     overflow: hidden;
     position: absolute;
 }
 
 #banner video{
-	margin-left: -50%;
+	margin-left: -20%;
 	height: 100% !important;
 	background-size: cover;
 	background-positon: center;
@@ -264,6 +264,7 @@ textarea {
 
 /*Card*/
 .card {
+  min-height: 376px;
   position: relative;
   border: 1px solid #F6F6F7;
   border-radius: 4px;
@@ -343,6 +344,12 @@ textarea {
   font-family: DIN;
 }
 
+/*Section Specific*/
+
+#sailing-theory-for-beginners {
+
+}
+
 /*Fun*/
 
 .has-shadow {
@@ -355,8 +362,8 @@ textarea {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='Squiggle-svg' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.st0{animation:shift 2s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-50%);}}%3C/style%3E%3Cpath fill='none' stroke='#B7E3E4' stroke-width='1' class='st0' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
   margin: 35px auto;
   border: 0;
-  height: 4px;
-  width: 40px;
+  height: 6px;
+  width: 60px;
   display: block
 }
 
@@ -380,12 +387,60 @@ there.
 @media (min-width: 750px) {}
 
 /* Larger than desktop */
-@media (min-width: 1000px) {}
+@media (min-width: 1000px) {
+}
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
 
 /**/
+
+/* smaller than Desktop HD */
+@media (max-width: 1200px) {
+  #sailing-theory-for-beginners {
+    width: 50%;
+  }
+  #sailing-theory-for-beginners .card-container {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+}
+
+/* smaller than desktop */
+@media (max-width: 1000px) {
+  #sailing-theory-for-beginners {
+    width: 75%;
+  }
+  #sailing-theory-for-beginners .card-container {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+}
+
+/* smaller than tablet */
+@media (max-width: 750px) {
+  #banner {
+    width: 35%;
+    height: 304px;
+  }
+}
+
+/* Smaller than phablet (also point when grid becomes active) */
+@media (max-width: 550px) {
+  #sailing-theory-for-beginners {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .navbar {
+    display: none;
+  }
+  #banner {
+    display: none;
+  }
+}
+
 
 /* smaller than mobile */
 @media (max-width: 400px) {
@@ -393,27 +448,3 @@ there.
     opacity: 1;
   }
 }
-
-/* Larger than phablet (also point when grid becomes active) */
-@media (max-width: 550px) {
-	.navbar {
-		display: none;
-	}
-	#banner {
-		display: none;
-	}
-}
-
-/* smaller than tablet */
-@media (max-width: 750px) {
-	#banner {
-		width: 35%;
-		height: 304px;
-	}
-}
-
-/* Larger than desktop */
-@media (max-width: 1000px) {}
-
-/* Larger than Desktop HD */
-@media (max-width: 1200px) {}

@@ -384,6 +384,13 @@ textarea {
 
 /*Fun*/
 
+.kyle-shadow {
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 12px 48px -16px rgba(135,135,135,1);
+  -moz-box-shadow: 0px 12px 48px -16px rgba(135,135,135,1);
+  box-shadow: 0px 12px 48px -16px rgba(135,135,135,1);
+}
+
 .has-shadow {
   -webkit-box-shadow: 0px 8px 16px -4px rgba(150, 186, 193, .53);
   -moz-box-shadow: 0px 8px 16px -4px rgba(150, 186, 193, .53);
